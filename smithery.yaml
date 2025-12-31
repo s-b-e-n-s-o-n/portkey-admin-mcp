@@ -1,4 +1,4 @@
-# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+# Smithery configuration file: https://smithery.ai/docs/build/project-config/smithery-yaml
 
 startCommand:
   type: stdio
@@ -10,49 +10,15 @@ startCommand:
       portkeyApiKey:
         type: string
         title: Portkey API Key
-        description: >-
-          Your Portkey API key. Use an org-level Admin API key for full access
-          to all tools, or a workspace-scoped key for limited access.
-          Get your key at https://app.portkey.ai/settings/api-keys
-      transport:
-        type: string
-        title: Transport Mode
-        description: >-
-          Transport mode for the MCP server. Use 'stdio' for standard I/O
-          communication (default) or 'http' for HTTP server mode.
-        enum:
-          - stdio
-          - http
-        default: stdio
-      port:
-        type: number
-        title: HTTP Port
-        description: >-
-          Port number for HTTP server mode. Only used when transport is 'http'.
-          Defaults to 3000.
-        default: 3000
+        description: Your Portkey Admin API key from https://app.portkey.ai/settings/api-keys
   commandFunction:
     |-
-    config => {
-      const transport = config.transport || 'stdio';
-      const isHttp = transport === 'http';
-      const env = {
-        PORTKEY_API_KEY: config.portkeyApiKey,
-        MCP_TRANSPORT: transport
-      };
-
-      if (isHttp) {
-        const port = config.port || 3000;
-        if (port > 0 && port < 65536) {
-          env.MCP_PORT = String(port);
-        } else {
-          env.MCP_PORT = '3000';
-        }
+    (config) => ({
+      command: 'node',
+      args: ['build/index.js'],
+      env: {
+        PORTKEY_API_KEY: config.portkeyApiKey
       }
-
-      return {
-        command: 'node',
-        args: [isHttp ? 'build/server.js' : 'build/index.js'],
-        env
-      };
-    }
+    })
+  exampleConfig:
+    portkeyApiKey: your_portkey_api_key_here

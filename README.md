@@ -44,7 +44,26 @@ MCP server for Portkey Admin API. **116 tools** for prompts, configs, analytics 
 
 ## 🚀 Quick Start
 
-**1. Clone and install:**
+**Add to Claude config** (`~/.claude/claude_desktop_config.json`):
+```json
+{
+  "mcpServers": {
+    "portkey": {
+      "command": "npx",
+      "args": ["-y", "portkey-admin-mcp"],
+      "env": {
+        "PORTKEY_API_KEY": "your_api_key"
+      }
+    }
+  }
+}
+```
+
+**Restart Claude Desktop.** That's it!
+
+<details>
+<summary><strong>🔨 Alternative: Build from source</strong></summary>
+
 ```bash
 git clone https://github.com/s-b-e-n-s-o-n/portkey-admin-mcp.git
 cd portkey-admin-mcp
@@ -52,7 +71,7 @@ npm install
 npm run build
 ```
 
-**2. Add to Claude config** (`~/.claude/claude_desktop_config.json`):
+Then use this config:
 ```json
 {
   "mcpServers": {
@@ -67,7 +86,7 @@ npm run build
 }
 ```
 
-**3. Restart Claude Desktop.**
+</details>
 
 ---
 
