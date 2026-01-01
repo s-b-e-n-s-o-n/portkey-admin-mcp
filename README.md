@@ -8,7 +8,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=000000&center=true&vCenter=true&width=500&lines=116+tools+for+Portkey+Admin+API;Prompts%2C+Configs%2C+Analytics;Full+MCP+Protocol+1.0+Server" alt="Typing SVG">
 </picture>
 
-MCP server for Portkey Admin API. **116 tools** for prompts, configs, analytics & more.
+MCP server for [Portkey](https://portkey.ai/) Admin API. **116 tools** for prompts, configs, analytics & more.
 
 </div>
 
@@ -35,6 +35,7 @@ MCP server for Portkey Admin API. **116 tools** for prompts, configs, analytics 
 
 <p align="center">
   <a href="https://registry.modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP_Registry-io.github.s--b--e--n--s--o--n%2Fportkey--admin--mcp-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48L3N2Zz4=" alt="MCP Registry"></a>
+  <a href="https://smithery.ai/server/@s-b-e-n-s-o-n/portkey-admin-mcp"><img src="https://smithery.ai/badge/@s-b-e-n-s-o-n/portkey-admin-mcp" alt="Smithery"></a>
 </p>
 
 <p align="center">
@@ -58,7 +59,21 @@ MCP server for Portkey Admin API. **116 tools** for prompts, configs, analytics 
 
 ## 🚀 Quick Start
 
-**Add to Claude config** (`~/.claude/claude_desktop_config.json`):
+### Installation Methods
+
+| Method | Type | Setup |
+|--------|------|-------|
+| [![Smithery](https://img.shields.io/badge/Smithery-Install-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTV6TTIgMTdsMTAgNSAxMC01TTIgMTJsMTAgNSAxMC01Ii8+PC9zdmc+)](https://smithery.ai/server/@s-b-e-n-s-o-n/portkey-admin-mcp) | Hosted | One-click install, no local setup |
+| [![Glama](https://img.shields.io/badge/Glama-Install-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48L3N2Zz4=)](https://glama.ai/mcp/servers/@s-b-e-n-s-o-n/portkey-admin-mcp) | Hosted | One-click install via Glama |
+| [![npm](https://img.shields.io/badge/npm-npx-CB3837?logo=npm)](https://www.npmjs.com/package/portkey-admin-mcp) | Local | `npx -y portkey-admin-mcp` |
+| [![Docker](https://img.shields.io/badge/Docker-Container-2496ED?logo=docker&logoColor=white)](https://github.com/s-b-e-n-s-o-n/portkey-admin-mcp) | Self-hosted | `docker pull` or build from source |
+
+---
+
+<details>
+<summary><strong>📦 npx / Claude Desktop Config</strong></summary>
+
+Add to `~/.claude/claude_desktop_config.json`:
 ```json
 {
   "mcpServers": {
@@ -73,10 +88,12 @@ MCP server for Portkey Admin API. **116 tools** for prompts, configs, analytics 
 }
 ```
 
-**Restart Claude Desktop.** That's it!
+Restart Claude Desktop.
+
+</details>
 
 <details>
-<summary><strong>🔨 Alternative: Build from source</strong></summary>
+<summary><strong>🔨 Build from source</strong></summary>
 
 ```bash
 git clone https://github.com/s-b-e-n-s-o-n/portkey-admin-mcp.git
