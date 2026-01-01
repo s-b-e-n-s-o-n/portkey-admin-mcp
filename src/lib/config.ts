@@ -32,7 +32,11 @@ export function getServerConfig(): ServerConfig {
 		);
 	}
 
-	const port = Number.parseInt(process.env.MCP_PORT?.trim() || "3000", 10);
+	// PORT is set by Smithery hosted deployments (8081), MCP_PORT for manual config
+	const port = Number.parseInt(
+		process.env.PORT?.trim() || process.env.MCP_PORT?.trim() || "3000",
+		10,
+	);
 	if (Number.isNaN(port) || port < 1 || port > 65535) {
 		throw new Error(
 			`Invalid MCP_PORT value: ${process.env.MCP_PORT}. Must be a valid port number (1-65535)`,

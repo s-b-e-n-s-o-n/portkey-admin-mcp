@@ -1,7 +1,7 @@
 # Smithery configuration file: https://smithery.ai/docs/build/project-config/smithery-yaml
 
 startCommand:
-  type: stdio
+  type: http
   configSchema:
     type: object
     required:
