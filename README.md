@@ -2,7 +2,11 @@
 
 # Portkey Admin MCP Server
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=000000&center=true&vCenter=true&width=500&lines=116+tools+for+Portkey+Admin+API;Prompts%2C+Configs%2C+Analytics;Full+MCP+Protocol+1.0+Server)](https://git.io/typing-svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=116+tools+for+Portkey+Admin+API;Prompts%2C+Configs%2C+Analytics;Full+MCP+Protocol+1.0+Server">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=000000&center=true&vCenter=true&width=500&lines=116+tools+for+Portkey+Admin+API;Prompts%2C+Configs%2C+Analytics;Full+MCP+Protocol+1.0+Server">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=000000&center=true&vCenter=true&width=500&lines=116+tools+for+Portkey+Admin+API;Prompts%2C+Configs%2C+Analytics;Full+MCP+Protocol+1.0+Server" alt="Typing SVG">
+</picture>
 
 MCP server for Portkey Admin API. **116 tools** for prompts, configs, analytics & more.
 
@@ -486,18 +490,16 @@ Some endpoints are pending Portkey API clarification:
 [![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=fff)](#)
 [![Zod](https://img.shields.io/badge/Zod-3E67B1?logo=zod&logoColor=fff)](#)
 
-### Contributors
-
-<a href="https://github.com/s-b-e-n-s-o-n/portkey-admin-mcp/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=s-b-e-n-s-o-n/portkey-admin-mcp" alt="Contributors to portkey-admin-mcp" />
-</a>
-
 ---
 
 **MIT License** · Inspired by [r-huijts/portkey-admin-mcp-server](https://github.com/r-huijts/portkey-admin-mcp-server)
 
 <a href="#portkey-admin-mcp-server">↑ Back to top</a>
 
-<img src="https://api.visitorbadge.io/api/visitors?path=s-b-e-n-s-o-n%2Fportkey-admin-mcp&label=Visitors&countColor=%23000000" alt="Visitors">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.visitorbadge.io/api/visitors?path=s-b-e-n-s-o-n%2Fportkey-admin-mcp&label=Visitors&countColor=%23FFFFFF">
+  <source media="(prefers-color-scheme: light)" srcset="https://api.visitorbadge.io/api/visitors?path=s-b-e-n-s-o-n%2Fportkey-admin-mcp&label=Visitors&countColor=%23000000">
+  <img src="https://api.visitorbadge.io/api/visitors?path=s-b-e-n-s-o-n%2Fportkey-admin-mcp&label=Visitors&countColor=%23000000" alt="Visitors">
+</picture>
 
 </div>
