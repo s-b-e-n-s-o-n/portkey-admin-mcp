@@ -33,6 +33,12 @@ MCP server for Portkey Admin API. **116 tools** for prompts, configs, analytics 
   <a href="https://github.com/sponsors/s-b-e-n-s-o-n"><img src="https://img.shields.io/badge/sponsor-GitHub_Sponsors-ea4aaa?logo=githubsponsors&logoColor=fff" alt="Sponsor"></a>
 </p>
 
+<p align="center">
+  <a href="https://glama.ai/mcp/servers/@s-b-e-n-s-o-n/portkey-admin-mcp">
+    <img width="380" height="200" src="https://glama.ai/mcp/servers/@s-b-e-n-s-o-n/portkey-admin-mcp/badge" alt="Portkey Admin MCP server" />
+  </a>
+</p>
+
 ---
 
 ## 📑 Contents
