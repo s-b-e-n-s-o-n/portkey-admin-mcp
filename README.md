@@ -34,6 +34,10 @@ MCP server for Portkey Admin API. **116 tools** for prompts, configs, analytics 
 </p>
 
 <p align="center">
+  <a href="https://registry.modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP_Registry-io.github.s--b--e--n--s--o--n%2Fportkey--admin--mcp-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48L3N2Zz4=" alt="MCP Registry"></a>
+</p>
+
+<p align="center">
   <a href="https://glama.ai/mcp/servers/@s-b-e-n-s-o-n/portkey-admin-mcp">
     <img width="380" height="200" src="https://glama.ai/mcp/servers/@s-b-e-n-s-o-n/portkey-admin-mcp/badge" alt="Portkey Admin MCP server" />
   </a>

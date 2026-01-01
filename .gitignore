@@ -16,6 +16,9 @@ dist/
 # MCP config (contains API keys)
 .mcp.json
 
+# MCP Registry auth tokens
+.mcpregistry_*
+
 # IDE/Editor specific
 .vscode/
 .idea/
